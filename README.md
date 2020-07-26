@@ -7,7 +7,10 @@ Using VBA to clean up and analyze stock data, along with refactoring code for th
 ### Background
 
 ## Results
-insert images of run times
+
+![VBA_Chaallenge_2017](https://github.com/rmchartman/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
+
+![VBA_Chaallenge_2018](https://github.com/rmchartman/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 Answer the following questions:
