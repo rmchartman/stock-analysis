@@ -12,10 +12,12 @@ Now that a base process of analysis was set up to provide Steve with meaningful 
 ## Methods & Results
 ### Solution 1
 The first solution used nested for loops to first look the rows where the ticker was equal to the ticker beign evaluated, then look at all of the rows of data sum the total volume, find the starting price, and find the ending price. Once those data were found, the data would be inserted into the excel table to display the analytics for Steve to view, and then the next ticker would be evaultated, repeating the process. This process was quite lengthy as the process had to loop through several processes. The run times for the first solution can be seen below. 
+
 ![VBA_Chaallenge_Solution1_2017](https://github.com/rmchartman/stock-analysis/blob/master/Resources/VBA_Challenge_Solution1_2017.png) ![VBA_Chaallenge_Solution1_2018](https://github.com/rmchartman/stock-analysis/blob/master/Resources/VBA_Challenge_Solution1_2018.png)
 
 ### Solution 2 (Refactored)
 The second solution used indexed arrays to use 3 separate for loops that referenced specific tickers. the first loop set the volumes for each ticker to zero. The second loop found the total volume, starting price and ending price that was specific for each ticker by looping through all of the rows of data and adding sata to the arrays for total volumes, starting prices and ending prices. The third loop filled the analysis table in excel with the data from the three arrays that were filled in the previous loop. The run times for the second solution can be seen below. This method proved to be quite fast and should be reccommended for s the final solution for Steve. The run times for the first solution can be seen below.
+
 ![VBA_Chaallenge_2017](https://github.com/rmchartman/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png) ![VBA_Chaallenge_2018](https://github.com/rmchartman/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 ## Summary
